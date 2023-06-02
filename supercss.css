@@ -1,0 +1,105 @@
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: rgb(155, 39, 0);
+  width: 100vw;
+}
+nav h2 {
+  text-align: center;
+  display: inline;
+  font-size: 12pt;
+}
+
+.Social-Media {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: center;
+}
+.Social-Media div {
+  margin-left: 10px;
+}
+.Social-Media div svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+main {
+  background-image: url(img/lacasadeludmi.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+main h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 25%;
+}
+
+.parrafo {
+  width: 50vw;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+}
+.parrafo p {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.services {
+  background-color: #aa5959;
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+}
+
+.services--card {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+}
+.services--card h3 {
+  font-size: 1.5rem;
+}
+.services--card p {
+  font-size: 0.8rem;
+}
+.services--card img {
+  width: 100%;
+  height: 100%;
+}
+.services--card:last-child {
+  margin-top: 2rem;
+  width: 80%;
+  height: 100%;
+}
+
+.services--card__image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=supercss.css.map */
